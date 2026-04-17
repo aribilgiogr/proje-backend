@@ -1,0 +1,24 @@
+# Python sanal ortamları
+venv/
+env/
+.venv/
+
+# Derlenmiş dosyalar ve önbellek
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Veritabanı (yerel)
+db.sqlite3
+
+# Ortam değişkenleri ve gizli dosyalar
+.env
+
+# IDE ve Editör ayarları
+.vscode/
+.idea/
+*.swp
+
+# Django statik ve medya dosyaları (Geliştirme aşamasında lokal tutulacaksa)
+media/
